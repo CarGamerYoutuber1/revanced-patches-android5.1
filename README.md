@@ -1,31 +1,26 @@
-# YouTube ReVanced for Android 6.0-7.1
+# YouTube ReVanced for Android 5.1
 ReVanced Extended fork for YouTube 17.34.36.  
 A fork of inotia00's [ReVanced Extended](https://github.com/inotia00/revanced-patches) (RVX) Patches.
 
-## How to patch
-See [[How to build]](https://github.com/kitadai31/revanced-patches-android6-7/wiki/How-to-build) page in documentations.
 
-Other information is also available on [[documentations]](https://github.com/kitadai31/revanced-patches-android6-7/wiki) (GitHub Wiki).
 
 ## About
-The last YouTube app that supports Android 6-7 is **17.34.36**. (or 17.34.35)  
+The last YouTube app that supports Android 5.1 is **17.34.36**. (or 17.34.35)  
 However, the latest ReVanced/RVX Patches doesn't support YouTube 17.34.36.
 
-By using this fork, you can patch YouTube 17.34.36, and you can use YouTube ReVanced on Android 6 or 7.
+By using this fork, you can patch YouTube 17.34.36, and you can use YouTube ReVanced on Android 5.1
 
-This fork is based on the latest RVX Patches, and I added minimal changes to support 17.34.36.
-
-## Warning: This project is almost dead!
+This fork is based on the latest RVX Patches, and I added minimal changes to support 17.34.36
 
 ### Current situation
 
-In Feb 4, 2025, Google started to show the force update screen ("Update your app" / "Switch to YouTube.com") to old clients less than 19.01.xx.  
+In October 2023, Google started to show the force update screen ("Update your app" / "Switch to YouTube.com") to old clients less than 19.01.xx.  
 
 <img src="https://github.com/user-attachments/assets/ad3d5099-9e6a-4915-aa5b-04f1ee22477e" width="200">
 
 This screen can be removed with RVX's "Disable update screen" patch.
 
-After that, in March 2025, Google shut down old clients completely.  
+After that, in March 2024, Google shut down old clients completely.  
 The home tab only shows "Switch to YouTube.com" screen, and all accesses from old clients are blocked with [400] error.
 
 <img src="https://github.com/user-attachments/assets/d5b8e1c7-0825-4530-a0ba-60cc7966713a" width="200">
@@ -40,10 +35,8 @@ This is our hope.
 "Fetching 17.34.36 layouts -> spoof app version to 19.01.34 -> freezing layout updates" is working as of May 13, 2025.
 
 With our new patches `Spoof app version`, `Freeze layout updates`, and `Add missing resources`, YouTube 17.34.36 can still be available. (but half-broken)  
-[See details](https://github.com/kitadai31/revanced-patches-android6-7/releases/tag/v5.6.2) 
 
-We don't know how long this will work.  
-If this no longer works, development will be discontinued and the repository will be archived.
+
 
 ## 📋 List of patches in this repository
 
